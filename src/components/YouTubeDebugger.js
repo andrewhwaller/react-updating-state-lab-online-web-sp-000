@@ -25,7 +25,7 @@ class YouTubeDebugger extends React.Component {
     });
   }
 
-  changeBitrate = () => {
+  changeResolution = () => {
     this.setState({
       settings: {
         ...this.state.settings,
